@@ -8,17 +8,6 @@ app.use(bodyParser.json())
 app.set('view engine','ejs')
  const Users = require('./model/scheme')
  mongoose.connect('mongodb://localhost:27017/auth',{ useNewUrlParser: true })
-// const nuser = new Users({
-//     username:"sucharita",
-//     password:'ilovebabu'
-// })
-
-// nuser.save().then((result)=>{
-//     console.log(result)
-
-// }).catch((error)=>{
-//     console.log(error)
-// })
 
 
 //res and req
